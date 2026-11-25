@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Samarth Bhosale, aspiring full-stack developer.">
+  <title>Samarth Bhosale | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home">SB<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+        <a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+        <h1>Hello, I'm<br><span>Samarth Bhosale.</span></h1>
+        <h2>Aspiring Full-Stack Developer</h2>
+        <p class="intro">I build clean, responsive web experiences and enjoy turning ideas into practical applications.
+          I’m currently developing my skills in the MERN stack.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="social-links">
+          <!-- Replace # with your actual profile URLs -->
+          <a href="https://github.com/Samarth123456581" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/samarth-bhosale-5702b02aa/" target="_blank" rel="noreferrer">LinkedIn
+            ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative developer illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <p class="code-muted">developer.js</p>
+          <pre><span class="purple">const</span> developer = {
+  name: <span class="green">'Samarth'</span>,
+  role: <span class="green">'Full-Stack Dev'</span>,
+  skills: [
+    <span class="orange">'HTML'</span>,
+    <span class="orange">'CSS'</span>,
+    <span class="orange">'JavaScript'</span>,
+    <span class="orange">'MERN'</span>
+  ],
+  learning: <span class="green">'Every day'</span>
+};</pre>
+          <div class="code-footer"><span>●</span> Building something useful</div>
+        </div>
+        <div class="floating-tag tag-top">&lt;/&gt; Web Development</div>
+        <div class="floating-tag tag-bottom">✦ Always learning</div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE ↓</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>A little about <span>me</span></h2>
+      </div>
+      <div class="about-grid">
+        <figure class="about-photo">
+          <img src="photo.jpg" alt="Portrait of Samarth Bhosale" width="250" height="350" loading="lazy">
+        </figure>
+        <div class="about-text">
+          <h3>Curious mind. Practical builder.</h3>
+          <p>I have completed my degree and am currently pursuing AI-Powered Advanced MERN Stack Development. I enjoy
+            learning how websites and applications work, solving problems, and building projects that make everyday
+            tasks easier.</p>
+          <p>Outside technology, I enjoy travelling and trekking. I believe consistent learning and hands-on practice
+            are the best ways to grow as a developer.</p>
+          <div class="quick-facts">
+            <div><strong>Education</strong><span>Degree completed</span></div>
+            <div><strong>Currently learning</strong><span>AI-Powered MERN Stack</span></div>
+            <div><strong>Interests</strong><span>Web development · Trekking</span></div>
+          </div>
+          <a class="button primary resume-btn" href="resume.pdf" download="Samarth_Bhosale_Resume.pdf">Download resume
+            <span>↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / SKILLS</p>
+          <h2>Tools I work <span>with</span></h2>
+        </div>
+        <p class="section-lead">A growing toolkit built through learning, practice, and projects.</p>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <div class="skill-icon">⌘</div>
+            <h3>Frontend</h3>
+            <p>HTML · CSS · JavaScript · Bootstrap</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">⚙</div>
+            <h3>Backend</h3>
+            <p>Node.js · Express.js · PHP</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">▤</div>
+            <h3>Database</h3>
+            <p>MongoDB · MySQL · SQL</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">⌨</div>
+            <h3>Programming</h3>
+            <p>C · JavaScript</p>
+          </article>
+        </div>
+        <p class="small-note">Skills listed reflect my learning and practice areas. I’m continuously improving them
+          through hands-on work.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Projects I've <span>built</span></h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">01</span><span class="project-type">Web
+              Development</span>
+          </div>
+          <div class="project-visual pharma">F<span>FoodPlaza</span></div>
+          <h3>FoodPlaza</h3>
+          <p>A responsive food ordering website with a menu, clean layout and easy navigation.</p>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links"><a href="https://github.com/Samarth123456581/FoodPlaza" target="_blank" rel="noreferrer"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.05-.49.05-.49.8.06 1.23.83 1.23.83.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> View on GitHub</a></div>
+        </article>
+        <article class="project-card">  
+          <div class="project-top"><span class="project-number">02</span><span class="project-type">C · File
+              Handling</span></div>
+          <div class="project-visual parking">P<span>Smart Parking</span></div>
+          <h3>Smart Parking Slot Management</h3>
+          <p>A console-based application to manage vehicle entry and exit, parking slots, records, and fee calculations.
+          </p>
+          <div class="chips"><span>C</span><span>Structures</span><span>File Handling</span></div>
+          <div class="project-links"><a href="https://github.com/Samarth123456581/Easypark" target="_blank" rel="noreferrer"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.05-.49.05-.49.8.06 1.23.83 1.23.83.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> View on GitHub</a></div>
+        </article>
+        <article class="project-card project-placeholder">
+          <div class="project-top"><span class="project-number">03</span><span class="project-type">In progress</span>
+          </div>
+          <div class="project-visual portfolio">&lt;/&gt;<span>Next project</span></div>
+          <h3>More coming soon</h3>
+          <p>I’m continuing to build and improve projects as I learn more about modern web development.</p>
+          <div class="chips"><span>MERN Stack</span><span>Learning</span></div>
+          <div class="project-links"><a href="https://github.com/Samarth123456581" target="_blank" rel="noreferrer"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.05-.49.05-.49.8.06 1.23.83 1.23.83.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> All repositories</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">04 / CONTACT</p>
+        <h2>Have an opportunity<br>or an idea? <span>Let's talk.</span></h2>
+        <p>I’m interested in learning, collaborating, and starting my professional journey in technology.</p>
+        <!-- Replace the email below with your preferred contact email. -->
+        <a class="button primary" href="mailto:samarthbhosale00007@gmail.com">Send me an email ↗</a>
+        <div class="contact-foot"><span>Samarth Bhosale</span><span>Designed & built with HTML, CSS and
+            JavaScript</span></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container"><span>© <span id="year"></span> Samarth Bhosale</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
